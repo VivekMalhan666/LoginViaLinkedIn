@@ -20,13 +20,12 @@ LinkedIn automatically generates a Client ID and Client Secret for your applicat
 OAuth 2.0 Settings
 
 You will need to provide the appropriate Redirect URL for your app to LinkedIn. You can do this via the Auth screen under OAuth 2.0 Settings. Click the pencil icon, then click Add redirect URL. When prompted, provide the following:
+
 Field 	Description
 Redirect URLs 	https://YOUR_DOMAIN/login/callback
 Find your Auth0 domain name for redirects
 
-If your Auth0 domain name is not shown above and you are not using our custom domains feature, your domain name is your tenant name, plus .auth0.com. For example, if your tenant name were exampleco-enterprises, your Auth0 domain name would be exampleco-enterprises.auth0.com and your redirect URI would be https://exampleco-enterprises.auth0.com/login/callback.
 
-If you are using custom domains, your redirect URI will have the following format: https://<YOUR CUSTOM DOMAIN>/login/callback.
 
 Click Update to save your changes.
 2. Create and enable a connection in Auth0
